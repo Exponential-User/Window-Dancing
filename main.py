@@ -38,7 +38,7 @@ class WindowDance:
     # Configuration
 
     def setup_config(self):
-        self.AUDIO_FILE = input("Enter your file name (e.g., song.mp3): ")
+        self.AUDIO_FILE = input("\n\nEnter your file name (e.g., song.mp3): ")
         self.MAIN_WINDOW_JUMP = -int(input("Enter how much the windows jump (0 for none): "))
         self.UPDATE_HZ = max(1, int(input("Enter your frame rate: ")))
         self.TEMPO_INPUT = int(input("Enter the tempo (0-9 for auto): "))
