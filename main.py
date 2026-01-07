@@ -1,12 +1,5 @@
 class WindowDance:
     def __init__(self):
-        import warnings
-        # Ignore deprecation warnings from pygame
-        warnings.filterwarnings(
-            "ignore",
-            message="pkg_resources is deprecated as an API"
-        )
-
         import tkinter as tk
         import librosa
         import pygame
